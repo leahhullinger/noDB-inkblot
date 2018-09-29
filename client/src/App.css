@@ -1,0 +1,155 @@
+.app {
+  height: 100vh;
+  font-family: 'Libre Franklin', sans-serif;
+  
+}
+
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 800;
+}
+
+/* .app-body {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Libre Franklin', sans-serif;
+
+} */
+
+.header {
+  padding-top: 75px;
+  padding-left: 75px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  background-color: white;
+}
+
+.project-name {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900px;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  display: flex;
+  align-items: bottom baseline;
+  padding: 0;
+  
+}
+
+.main-body {
+  margin-bottom: 150px;
+}
+
+.personality-result-card {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.personality-result-card h1 {
+  align-self: flex start;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profiles-container {
+  display: flex;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card,
+.profile-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow:5px 5px 15px grey;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+}
+
+button {
+  height: 42px;
+  width: 224px;
+  margin: 20px;
+  border: .5 solid gray;
+  background-color: #DCCB18;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.profile-card {
+  margin: 25px;
+  max-width: 500px;
+  
+}
+
+.profile-card img {
+  height: 300px;
+  width: auto;
+}
+.card {
+  min-height: 450px;
+  max-width: 750px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+.name-input {
+  width: 200px;
+  margin: 20px 0;
+}
+.text-input {
+  height: 250px;
+  width: 500px;
+  background-color:#323232; 
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+input, select, textarea {
+  color: #FF1D23;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding: 10px; 
+
+}
+.new-user-card {
+  min-width: 00px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-user-card input {
+  align-self: flex-start;
+}
+
+.new-user-card button {
+  align-self: flex-end;
+}
